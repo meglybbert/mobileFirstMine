@@ -1,4 +1,4 @@
-/*********/
+/***** for a mobile viewport *****/
 
 
 
@@ -10,4 +10,12 @@
 
 
 
-/***** for a wider viewport *****/
+/***** for a wider laptop or desktop viewport *****/
+@media only screen and (min-width: 1200px) {
+	body{
+		max-width: 1200px;
+		
+	}
+	
+
+}
