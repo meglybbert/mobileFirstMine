@@ -1,6 +1,29 @@
 /***** for a mobile viewport *****/
+body{
+	max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    font-size: 24px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
 
 
+img{
+	max-width: 100%;
+}
+
+p{
+	max-width: 100%;
+}
 
 
 
@@ -12,9 +35,12 @@
 
 /***** for a wider laptop or desktop viewport *****/
 @media only screen and (min-width: 1200px) {
-	body{
-		max-width: 1200px;
-		
+	img{
+		max-width: 50%;
+	}
+	
+	p{
+		max-width: 50%;
 	}
 	
 
