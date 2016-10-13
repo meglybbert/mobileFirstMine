@@ -34,6 +34,10 @@ p{
 
 /***** for a wider laptop or desktop viewport *****/
 @media only screen and (min-width: 1200px) {
+	ul{
+		max-width: 50%
+	}
+	
 	img{
 		max-width: 50%;
 	}
