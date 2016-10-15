@@ -3,16 +3,30 @@ body{
 	max-width: 100%;
 }
 
+nav,
+ul {
+  text-align: center;
+}
+
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+}
+
+a{
+	font-family: 'Permanent Marker', cursive;
+  text-decoration: none;
+  color: turquoise;
 }
 
 li {
     display: inline;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+h2{
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
 }
 
 
@@ -21,6 +35,7 @@ img{
 }
 
 p{
+	font-family: 'Muli', sans-serif;
 	max-width: 100%;
 }
 
@@ -34,17 +49,30 @@ p{
 
 /***** for a wider laptop or desktop viewport *****/
 @media only screen and (min-width: 1200px) {
-	ul{
-		max-width: 50%
-	}
+section {
+    display: inline-block;
+}
+
+section:nth-child(n+2){
+    margin-top: 3%;
+}
+
+  
+nav,
+ul {
+    text-align: center;
+}
 	
-	img{
-		max-width: 50%;
-	}
+img{
+    max-width: 50%;
+    float: left;
+}
 	
-	p{
-		max-width: 50%;
-	}
+p{
+    max-width: 50%;
+    padding: 3%;
+    float: right;
+}
 	
 
 }
